@@ -1,10 +1,25 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="container-fluid">
+    <Navigation/>
+
+    <router-view/>
+
+
+    <Footer/>
+  </div>
 </template>
+
+<script>
+import Navigation from './components/Navigation.vue';
+import Footer from './components/Footer.vue';
+
+export default {
+  components: {
+    Navigation,
+    Footer
+  }
+}
+</script>
 
 <style>
 #app {
@@ -15,16 +30,16 @@
   color: #2c3e50;
 }
 
-nav {
+.Navigation {
   padding: 30px;
 }
 
-nav a {
+.Navigation a {
   font-weight: bold;
   color: #2c3e50;
 }
 
-nav a.router-link-exact-active {
+.Navigation a.router-link-exact-active {
   color: #42b983;
 }
 </style>
