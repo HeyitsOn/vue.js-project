@@ -1,5 +1,5 @@
-{
-    "Resume": [
+{"data":[
+   { "Resume": [
       {
       
         "name": "Education",
@@ -14,8 +14,8 @@
         "name": "Qualifications",
         "description": ""
       }
-    ],
-    "Projects": [
+    ]},
+   { "Projects": [
       {
         "projectName": "",
         "link": ""
@@ -40,8 +40,8 @@
         "projectName": "",
         "link": ""
       }
-    ],
-    "Testimonials": [
+    ]},
+    {"Testimonial": [
       {
         "name": "Person 1",
         "img_url": "",
@@ -72,6 +72,7 @@
         "img_url": "",
         "description": ""
       }
-    ]
+    ]}
+  ]
   }
   

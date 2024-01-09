@@ -28,11 +28,14 @@ const routes = [
     component: ResumeView
   },
   {
-  },
-  {
     path: '/Contact',
     name: 'Contact',
     component: ContactView
+  },
+  {
+    path: '/Testimonial',
+    name: 'Testimonial',
+    component: TestimonialView
   },
 ];
 

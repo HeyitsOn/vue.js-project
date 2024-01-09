@@ -3,24 +3,24 @@ import axios from 'axios';
 
 export default createStore({
   state: {
-    HomeData: [],
-    AboutData: [],
+    
     ResumeData: [],
     ProjectsData: [],
     TestimonialsData: [],
-    ContactsData: []
+  
   },
   getters: {},
   mutations: {
-    TestimonialsData(state, Testimonial) {
-      state.TestimonialsData = Testimonial;
+    testimonialsData(state, data) {
+      state.TestimonialsData = data;
     }
   },
   actions: {
-    fetchData({ context }) {
+    fetchData({ commit }) {
       axios.get(' http://localhost:3000/Testimonials')
         .then(response => {
-          context('TestimonialData', response.data);
+          console.log(response.data);
+          commit('testimonialData', response.data);
         })
         .catch(error => {
           console.error('Error fetching data:', error);

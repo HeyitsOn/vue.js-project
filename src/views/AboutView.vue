@@ -25,6 +25,5 @@ SOCIAL MEDIA MANAGEMENT </P>
   background-color: yellow;
   padding:15%;
 }
-h2{background-color: white}
-p{background-color: yellow;}
+
 </style>
