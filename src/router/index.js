@@ -36,7 +36,7 @@ const routes = [
     path: '/Testimonial',
     name: 'Testimonial',
     component: TestimonialView
-  },
+  }
 ];
 
 const router = createRouter({

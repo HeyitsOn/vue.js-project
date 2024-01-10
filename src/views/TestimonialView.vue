@@ -1,6 +1,6 @@
 <template>
   <div>
-<h2>Testimonial{{ $store.state.TestimonialsDat }}</h2>
+<h2>Testimonial{{ $store.state.TestimonialsData}}</h2>
     <ul>
       <li v-for="Testimonial in $store.state.TestimonialsData[2].Testimonial" :key="Testimonial.name">
         {{ Testimonial.Name }} - {{ Testimonial.description}}
