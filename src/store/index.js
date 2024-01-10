@@ -6,21 +6,21 @@ export default createStore({
     
     ResumeData: [],
     ProjectsData: [],
-    TestimonialsData: [],
+    testData: [],
   
   },
   getters: {},
   mutations: {
     testimonialsData(state, data) {
-      state.TestimonialsData = data;
+      state.testData = data;
     }
   },
   actions: {
     fetchData({ commit }) {
-      axios.get(' http://localhost:3000/Testimonials')
+      axios.get('http://localhost:3000/data')
         .then(response => {
-          console.log(response.data);
-          commit('testimonialData', response.data);
+          console.log(response);
+          commit('testimonialsData', response.data[2]);
         })
         .catch(error => {
           console.error('Error fetching data:', error);
