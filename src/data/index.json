@@ -3,11 +3,13 @@
       {
       
         "name": "Education",
-        "description": ""
+        "description": 
+        "President high-school National senior certification The open university digital marketing Hostbeat Website management CMS"
       },
       {
-        "name": "Work Experience",
-        "description": ""
+        "name": "Skills",
+        "description":  "Writer "
+
       },
       {
         
@@ -16,61 +18,68 @@
       }
     ]},
    { "Projects": [
+      
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "E-book site",
+        "image":"",
+        "link": "https://659f989c14afdb3e643e9d09--marvelous-crepe-3dd66a.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "Area Of Triangle",
+        "image":"https://drive.google.com/uc?export=download&id=198Odb1Bn1gZx37zemVXfkk7xkUekfwEd",
+        "link": "https://659ff104bd4b07170b9f2467--singular-granita-0a5f8f.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "Age to day",
+        "image":"https://drive.google.com/uc?export=download&id=1yvoeahoYn1iDZex7M6XYTsfMWfK73FrJ",
+        "link": "https://659ff1c4a72e5b1737dd100c--courageous-duckanoo-adf7ae.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "Counting truthy",
+        "image":"https://drive.google.com/uc?export=download&id=1ohD7wzY8zBsz2MYiElQ7CRpAYTRuN0uZ",
+        "link": "https://precious-concha-866d56.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "BMI",
+        "image":"https://drive.google.com/uc?export=download&id=1-PYrGO4YxR_n82-Yajk_jiMkU5JuJ-pd",
+        "link": "https://subtle-moonbeam-a4915c.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "TEMPERATURE CONVERTER  ",
+        "image":"https://drive.google.com/uc?export=download&id=1W68X5GXrx9oKfxq_yv8DEAsEvx-Hs4T2",
+        "link": "https://dreamy-cuchufli-730aae.netlify.app/"
       }
     ]},
     {"Testimonial": [
       {
         "name": "Azasiphe Ndoro",
-        "img_url": "https://drive.google.com/uc?export=download&id=1jBVrc1LkTNpEeRTjYjL27IHNh1kc1sb4",
-        "description": ""
+        "image": "https://drive.google.com/uc?export=download&id=19MGB0hNOZGmyZV_dKN03ntMyzFrgykA9",
+        "description": "Working with Onika has been a pleasure due to how, she demonstrated an eagerness to collaborate and consistently."
       },
       {
         "name": "Caela Morgan Ward",
-        "img_url": "",
-        "description": ""
+        "image": "https://drive.google.com/uc?export=download&id=1KYkM7yEjXAW7NYQZKuPhaQsqEX-nyjQJ",
+        "description": "Onika has shown remarkable dedication. she quickly grasped complex concepts .        "
       },
       {
         "name": "S'phathimandla Makhanya",
-        "img_url": "",
-        "description": ""
+        "image": "https://drive.google.com/uc?export=download&id=1HMBdPzTVAaVFY3aE9aB-_hozBNiTHXq2",
+        "description": "Onika has displayed an admirable willingness to seek guidance, showcasing a proactive approach to skill refinement."
       },
       {
-        "name": "Person 4",
-        "img_url": "",
-        "description": ""
+        "name": "Sisipho Mafrika",
+        "image": "https://drive.google.com/uc?export=download&id=17Jux6rLurmchvw6BMM45VVRcfoTA-8Qr",
+        "description": "Onika is an adaptable team member, demonstrating her commitment to staying abreast of industry trends."
       },
       {
-        "name": "Person 5",
-        "img_url": "",
-        "description": ""
+        "name": "Heather Mtuedwa",
+        "image": "https://drive.google.com/uc?export=download&id=12m0a9LHWUn8h3Ie97KuXAmDDUfP60pAs",
+        "description": "Working with Onika  has been a pleasure due to her reliability and proactive attitude."
       },
       {
-        "name": "Person 6",
-        "img_url": "",
-        "description": ""
+        "name": "Sivelele Nkamane",
+        "image": "https://drive.google.com/uc?export=download&id=1hIgDpgewuo4qEwxQmY38Z_DTH9xHAyz4",
+        "description": "I am confident that Onika will achieve great milestones in her career due to her impressive dedication and rapid growth in the last six months."
       }
     ]}
   ]

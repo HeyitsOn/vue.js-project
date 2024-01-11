@@ -1,7 +1,9 @@
 <template>
-        <h1>Welcome to my Portfolio</h1>
+        <h1 class = welcome > Welcome to my Portfolio</h1>
   <div class="Home container">
     <div class="text-container">
+      <h1 class = welcome > Welcome to my Portfolio</h1>
+
       <p>
         I'm a full-stack web development student at Life Choices Academy, currently seeking an internship related to software development. My enthusiasm lies in robotics and cybersecurity, with a specific passion for robotics, where I can use code to impact people's lives by creating realistic approaches to everyday life with simulated intelligent assistance. As a writer passionate about technology, this propels my drive to create projects and solutions that will one day change a person's life.
       </p>
@@ -19,8 +21,13 @@ export default {
 </script>
 
 <style scoped>
+.welcome{
+
+}
 .Home {
-  background: url('https://drive.google.com/uc?export=download&id=1xhUtNlPqg-ekcIB_D0zCI6Jr5Tj13YOm');
+  background: linear-gradient(to right, #d3296a, #38b518, rgb(9, 192, 186));
+
+  /* background: url('https://drive.google.com/uc?export=download&id=1xhUtNlPqg-ekcIB_D0zCI6Jr5Tj13YOm'); */
   background-size: cover;
   background-position: center;
   padding: 2%;
