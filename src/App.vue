@@ -4,7 +4,7 @@
 
     <router-view/>
 
-
+<!-- <spinner/> -->
     <Footer/>
   </div>
 </template>
@@ -16,7 +16,8 @@ import Footer from './components/Footer.vue';
 export default {
   components: {
     Navigation,
-    Footer
+    Footer,
+    // spinner
   }
 }
 </script>

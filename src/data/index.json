@@ -3,11 +3,13 @@
       {
       
         "name": "Education",
-        "description": ""
+        "description": 
+        "President high-school National senior certification The open university digital marketing Hostbeat Website management CMS"
       },
       {
-        "name": "Work Experience",
-        "description": ""
+        "name": "Skills",
+        "description":  "Writer "
+
       },
       {
         
@@ -16,61 +18,68 @@
       }
     ]},
    { "Projects": [
+      
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "E-book site",
+        "image":"https://cdn-thumbs.imagevenue.com/8f/4f/a8/ME17GMOJ_t.png",
+        "link": "https://659f989c14afdb3e643e9d09--marvelous-crepe-3dd66a.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "Area Of Triangle",
+        "image":"https://cdn-thumbs.imagevenue.com/35/56/77/ME17GMOT_t.png",
+        "link": "https://659ff104bd4b07170b9f2467--singular-granita-0a5f8f.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "Age to day",
+        "image":"https://cdn-thumbs.imagevenue.com/dc/d5/1e/ME17GMOX_t.png",
+        "link": "https://659ff1c4a72e5b1737dd100c--courageous-duckanoo-adf7ae.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "Counting truthy",
+        "image":"https://cdn-thumbs.imagevenue.com/36/73/83/ME17GMPF_t.png",
+        "link": "https://precious-concha-866d56.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "BMI",
+        "image":"https://cdn-thumbs.imagevenue.com/d3/09/24/ME17GMPC_t.png",
+        "link": "https://subtle-moonbeam-a4915c.netlify.app/"
       },
       {
-        "projectName": "",
-        "link": ""
+        "projectName": "TEMPERATURE CONVERTER  ",
+        "image":"https://cdn-thumbs.imagevenue.com/2f/50/e0/ME17GMP2_t.png",
+        "link": "https://dreamy-cuchufli-730aae.netlify.app/"
       }
     ]},
     {"Testimonial": [
       {
-        "name": "Person 1",
-        "img_url": "",
-        "description": ""
+        "name": "Azasiphe Ndoro",
+        "image": "https://cdn-thumbs.imagevenue.com/5f/f4/df/ME17GN4J_t.jpg",
+        "description": "Working with Onika has been a pleasure due to how, she demonstrated an eagerness to collaborate and consistently."
       },
       {
-        "name": "Person 2",
-        "img_url": "",
-        "description": ""
+        "name": "Thandeka ",
+        "image": "https://cdn-thumbs.imagevenue.com/6a/9f/c2/ME17GN5I_t.jpg",
+        "description": "Onika has shown remarkable dedication. she quickly grasped complex concepts .        "
       },
       {
-        "name": "Person 3",
-        "img_url": "",
-        "description": ""
+        "name": "S'phathimandla Makhanya",
+        "image": "https://cdn-thumbs.imagevenue.com/b8/b6/b6/ME17GN55_t.jpg",
+        "description": "Onika has displayed an admirable willingness to seek guidance, showcasing a proactive approach to skill refinement."
       },
       {
-        "name": "Person 4",
-        "img_url": "",
-        "description": ""
+        "name": "Sisipho Mafrika",
+        "image": "https://cdn-thumbs.imagevenue.com/ac/a1/0f/ME17GN4N_t.JPG",
+        "description": "Onika is an adaptable team member, demonstrating her commitment to staying abreast of industry trends."
       },
       {
-        "name": "Person 5",
-        "img_url": "",
-        "description": ""
+        "name": "Caela Morgan Ward        ",
+        "image": "https://cdn-thumbs.imagevenue.com/49/a3/d0/ME17GN5Q_t.jpg",
+        "description": "Working with Onika  has been a pleasure due to her reliability and proactive attitude."
       },
       {
-        "name": "Person 6",
-        "img_url": "",
-        "description": ""
+        "name": "Sivelele Nkamane",
+        "image": "https://cdn-thumbs.imagevenue.com/01/ba/67/ME17GN4U_t.jpg",
+        "description": "I am confident that Onika will achieve great milestones in her career due to her impressive dedication and rapid growth in the last six months."
       }
     ]}
   ]
