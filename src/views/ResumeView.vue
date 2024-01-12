@@ -17,9 +17,28 @@
 
     <div class="skills-section mt-4">
       <h2>Skills</h2>
-      <ul class="list-group">
-        <li v-for="(skill, index) in skills" :key="index" class="list-group-item">{{ skill }}</li>
-      </ul>
+      <div class="skills-container">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <img src="https://cdn-thumbs.imagevenue.com/2d/75/11/ME17GN1M_t.png" alt="HTML Icon"> HTML
+          </li>
+          <li class="list-group-item">
+            <img src="https://cdn-thumbs.imagevenue.com/95/f5/24/ME17GN1K_t.png" alt="CSS Icon"> CSS
+          </li>
+          <li class="list-group-item">
+            <img src="https://cdn-thumbs.imagevenue.com/7e/5e/34/ME17GN1C_t.png" alt="Bootstrap Icon"> Bootstrap
+          </li>
+        </ul>
+
+        <ul class="list-group">
+          <li class="list-group-item">
+            <img src="https://cdn-thumbs.imagevenue.com/c4/bc/7e/ME17GN1Q_t.png" alt="JavaScript Icon"> JavaScript
+          </li>
+          <li class="list-group-item">
+            <img src="https://cdn-thumbs.imagevenue.com/b2/f5/c3/ME17GN20_t.png" alt="Vue.js Icon"> Vue.js
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -45,13 +64,6 @@ export default {
           date: '2023 - present'
         },
       ],
-      skills: [
-        'HTML',
-        'CSS',
-        'JavaScript',
-        'Vue.js',
-        'Writer',
-      ]
     };
   }
 };
@@ -89,7 +101,24 @@ export default {
   justify-content: space-between;
 }
 
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .list-group {
   margin-top: 10px;
+  flex-basis: calc(50% - 10px); /* Adjust the width based on your preference */
+}
+
+.list-group-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item img {
+  margin-right: 10px;
 }
 </style>

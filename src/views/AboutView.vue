@@ -1,7 +1,7 @@
 <template>
   <body class="container">
     <div class="image-container">
-      <img src="https://drive.google.com/uc?export=download&id=1jBVrc1LkTNpEeRTjYjL27IHNh1kc1sb4" alt="Your Alt Text Here" class="img grow-shrink">
+      <img src="https://cdn-thumbs.imagevenue.com/87/fc/3a/ME17GMQP_t.png" alt="Your Alt Text Here" class="img grow-shrink">
     </div>
     <div class="About text-container gradient-bg">
       <h1>About Me</h1>
@@ -11,11 +11,13 @@
     </div>
     <div class="Interests text-container gradient-bg">
       <h1>Interests</h1>
-      <p>POETRY</p>
-      <p>CODING</p>
-      <p>READING</p>
-      <p>DIGITAL MARKETING</p>
-      <p>SOCIAL MEDIA MANAGEMENT</p>
+      <p>
+        Poetry <img src="https://cdn-thumbs.imagevenue.com/12/bd/fa/ME17GMXM_t.png" alt="Poetry Image">
+      CODING <img src="https://cdn-thumbs.imagevenue.com/90/95/e1/ME17GMYI_t.png" alt="Coding Image">
+      READING <img src="https://cdn-thumbs.imagevenue.com/52/ce/9b/ME17GMXA_t.png" alt="Reading Image">
+      Digital Marketing <img src="https://cdn-thumbs.imagevenue.com/37/9c/23/ME17GMXR_t.png" alt="Digital Marketing Image">
+      Social Media Management<img src="https://cdn-thumbs.imagevenue.com/89/16/9f/ME17GMZ6_t.png" alt="Social Media Management Image">
+    </p>
     </div>
   </body>
 </template>
