@@ -1,18 +1,19 @@
 <template>
+  <body class=" bg-body">
   <div class="row">
     <div class="col-md-6">
       <div class="contact-container">
         <h1>Contact</h1>
-        <div class="form-container">
+<div class="form-container">
           <form action="https://formspree.io/f/xgegvewy" method="POST" class="float start">
             <h4>Get in Touch</h4>
             <div class="form-row">
-              <label for="name">Name</label>
+<label for="name">Name</label>
               <input name="name" id="name" type="text" required>
             </div>
             <div class="form-row">
               <label for="number">Contact Number</label>
-              <input name="number" id="number" type="tel" required>
+<input name="number" id="number" type="tel" required>
             </div>
             <div class="form-row">
               <label for="email">Your Email</label>
@@ -48,6 +49,7 @@
       </div>
     </div>
   </div>
+</body>
 </template>
 
 <script>
@@ -55,6 +57,9 @@ export default {};
 </script>
 
 <style scoped>
+.bg-body {
+  background-color: #60ce0c; /* Set your desired background color */
+}
 .contact-container {
   text-align: center;
   max-width: 800px;
@@ -63,7 +68,7 @@ export default {};
 
 h1 {
   font-family: 'Inter', sans-serif;
-  color: #333;
+  color: #0f50dd;
   margin-bottom: 20px;
 }
 

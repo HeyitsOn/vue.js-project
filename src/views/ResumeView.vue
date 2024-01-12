@@ -14,7 +14,11 @@
         </div>
       </div>
     </div>
-
+    <div>
+    <!-- <div class="image-box">
+          <img src="https://cdn-thumbs.imagevenue.com/29/d7/06/ME17GN3X_t.png" alt="Your Alt Text" class="img zoom-in"> -->
+          <button class="download-btn" @click="downloadCV">Download Resume</button>
+        </div>
     <div class="skills-section mt-4">
       <h2>Skills</h2>
       <div class="skills-container">
@@ -70,6 +74,20 @@ export default {
 </script>
 
 <style scoped>
+.download-btn:hover {
+  background-color: #0fa67d;
+}
+.download-btn {
+  background-color: #e91212;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.20s ease;
+  margin-top: 20px;
+}
 .resume {
   max-width: 800px;
   margin: auto;
@@ -88,7 +106,7 @@ export default {
   border: 1px solid #ddd;
   padding: 15px;
   border-radius: 8px;
-  background-color: #f8f9fa;
+  background-color: #1f80e0;
 }
 
 .card {
