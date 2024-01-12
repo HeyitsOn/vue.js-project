@@ -1,20 +1,19 @@
 <template>
-  <div>
+  <div class="project-component">
     <h2>Projects</h2>
     <div class="card-container">
       <div
         class="card"
-        v-for="Project in Projects"
-        :key="Project.name"
-        style="width: 14rem;"
+        v-for="project in Projects"
+        :key="project.name"
+        style="width: 18rem;"
       >
         <div class="card-body">
-          <h5 class="card-title">{{ Project.name }}</h5>
+          <h5 class="card-title">{{ project.name }}</h5>
           <p class="card-text">
-            <img class="image" :src="Project.image" alt="Project.name">
+            <img class="image" :src="project.image" :alt="project.name">
           </p>
-          <a :href="Project.link" class="btn btn-primary" target="_blank"></a>
-           <a :href="Project.link" class="btn btn-primary" target="_blank"></a>
+          <a :href="project.link" class="btn btn-primary" target="_blank">View</a>
         </div>
       </div>
     </div>
@@ -35,6 +34,11 @@ export default {
 </script>
 
 <style scoped>
+.project-component {
+  background-color: #19db8e; /* Set your desired background color */
+  padding: 20px; /* Add padding for better visual appearance */
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
