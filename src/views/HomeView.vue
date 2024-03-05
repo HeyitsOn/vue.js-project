@@ -30,39 +30,54 @@ export default {
 </script>
 
 <style scoped>
-p {
+/* General Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ea4c4c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
   text-align: center;
+  margin-top: 20px;
+  color: #333333;
 }
 
-.welcome {
-  background-color: #10eb55;
-  padding: 20px;
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #efefef;
 }
 
-.Home {
-  background-color: #10eb55;
-  padding: 20px;
-}
-
+/* Layout */
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.text-box {
-  padding: 20px;
-  margin-top: 30px;
-  background-color: #df0f66;
-}
-
+.text-box,
 .image-box {
   padding: 20px;
-  margin-top: 30px;
-  background-color: #0fc0df;
-  padding: 100px;
+  background-color: #326a21;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Animation */
 .fade-in {
   animation: fadeIn 1s ease-in-out;
 }
@@ -71,22 +86,14 @@ p {
   animation: zoomIn 1s ease-in-out;
 }
 
-/* .download-btn {
-  background-color: #e91212;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.20s ease;
-  margin-top: 20px;
-} */
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
-/* .download-btn:hover {
-  background-color: #0fa67d;
-} */
-
+/* Keyframe animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
