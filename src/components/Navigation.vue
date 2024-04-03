@@ -1,7 +1,15 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,13 +40,16 @@
 
 <script>
 export default {
-  name: 'NavBarComp'
-}
+  name: "NavBarComp",
+};
 </script>
 
 <style scoped>
 .navbar {
-  box-shadow: 0 2px 4px rgba(28, 11, 212, 0.1);
+
+  border-bottom: 2px solid white ;
+  box-shadow: 0 2px 4px rgba(143, 141, 173, 0.1);
+  background-color:#5AA05E;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -47,6 +58,10 @@ export default {
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: red;
-  background-color:rgba(94, 3, 119, 0.1);
+  background-color: rgb(199, 160, 119);
+}
+.nav-link{
+  color: white;
+
 }
 </style>
